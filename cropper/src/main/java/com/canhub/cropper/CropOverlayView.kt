@@ -274,10 +274,10 @@ class CropOverlayView
     fun setFixedAspectRatio(fixAspectRatio: Boolean) {
         if (isFixAspectRatio != fixAspectRatio) {
             isFixAspectRatio = fixAspectRatio
-            if (initializedCropWindow) {
-                initCropWindow()
-                invalidate()
-            }
+            //if (initializedCropWindow) {
+            //    initCropWindow()
+            //    invalidate()
+            //}
         }
     }
     /** the X value of the aspect ratio;  */
